@@ -23,8 +23,6 @@ Adafruit_ADXL345_Unified accel = Adafruit_ADXL345_Unified(12345);
 #define ADXL_INT1 D3 // interrupt pin defined
 const int chipSelect = D8;
 
-File myFile;
-
 void setup() {
   //general setup
   Serial.begin(9600);
